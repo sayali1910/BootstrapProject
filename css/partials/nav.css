@@ -1,0 +1,54 @@
+nav {
+  background-color: #b870f5;
+  color: white;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.navlist .home:hover {
+  background-color: #f1abbd;
+  border-radius: 5px;
+}
+.navlist .about:hover {
+  background-color: #f3c4b5;
+  border-radius: 5px;
+}
+.navlist .product:hover {
+  background-color: #dca6c8;
+  border-radius: 5px;
+}
+.navlist .services:hover {
+  background-color: #c8b0d2;
+  border-radius: 5px;
+}
+.navlist .contact:hover {
+  background-color: #9dc2e5;
+  border-radius: 5px;
+}
+.navlist .product .dropdown-menu {
+  background-color: #9dc2e5;
+}
+.navlist .product .dropdown-menu .i1 {
+  background-color: #9dc2e5;
+  color: aliceblue;
+}
+.navlist .product .dropdown-menu .i2 {
+  background-color: #f1abbd;
+  color: aliceblue;
+}
+.navlist .services .dropdown-menu {
+  background-color: #9dc2e5;
+}
+.navlist .services .dropdown-menu .i1 {
+  background-color: #9dc2e5;
+  color: aliceblue;
+}
+.navlist .services .dropdown-menu .i2 {
+  background-color: #f1abbd;
+  color: aliceblue;
+}
+
+/*# sourceMappingURL=nav.css.map */

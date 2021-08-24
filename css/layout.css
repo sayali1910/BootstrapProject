@@ -1,0 +1,119 @@
+nav {
+  background-color: #b870f5;
+  color: white;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.navlist .home:hover {
+  background-color: #f1abbd;
+  border-radius: 5px;
+}
+.navlist .about:hover {
+  background-color: #f3c4b5;
+  border-radius: 5px;
+}
+.navlist .product:hover {
+  background-color: #dca6c8;
+  border-radius: 5px;
+}
+.navlist .services:hover {
+  background-color: #c8b0d2;
+  border-radius: 5px;
+}
+.navlist .contact:hover {
+  background-color: #9dc2e5;
+  border-radius: 5px;
+}
+.navlist .product .dropdown-menu {
+  background-color: #9dc2e5;
+}
+.navlist .product .dropdown-menu .i1 {
+  background-color: #9dc2e5;
+  color: aliceblue;
+}
+.navlist .product .dropdown-menu .i2 {
+  background-color: #f1abbd;
+  color: aliceblue;
+}
+.navlist .services .dropdown-menu {
+  background-color: #9dc2e5;
+}
+.navlist .services .dropdown-menu .i1 {
+  background-color: #9dc2e5;
+  color: aliceblue;
+}
+.navlist .services .dropdown-menu .i2 {
+  background-color: #f1abbd;
+  color: aliceblue;
+}
+
+.aboutus {
+  margin: 20px;
+  padding: 0px;
+}
+.aboutus .who {
+  margin: 10px;
+  padding: 10px;
+}
+.aboutus .who .card-body h5 {
+  color: #b870f5;
+  font-size: 50px;
+  font-weight: bold;
+}
+.aboutus .who .card-body p {
+  color: #4c0166;
+  font-size: 20px;
+  font-weight: normal;
+}
+.aboutus .mission {
+  margin: 10px;
+  padding: 10px;
+}
+.aboutus .mission .card-body h5 {
+  color: #b870f5;
+  font-size: 50px;
+  font-weight: bold;
+}
+.aboutus .mission .card-body p {
+  color: #4c0166;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.card {
+  padding: 50px;
+  margin: 50px;
+}
+
+#carousel {
+  padding: 50px;
+  margin: 10px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+}
+footer h5 {
+  float: right;
+  color: azure;
+}
+
+@media (max-width: 700px) {
+  .text {
+    background-color: black;
+    color: white;
+  }
+}
+#ModalLabel {
+  color: black;
+}
+
+/*# sourceMappingURL=layout.css.map */
