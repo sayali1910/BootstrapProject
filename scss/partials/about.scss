@@ -1,0 +1,35 @@
+@import "../variables/variable";
+@mixin card-spacing($m,$p){
+        margin: $m;
+        padding: $p;
+}
+@mixin text-design($font-color,$font-size,$font-weight){
+        color: $font-color;
+        font-size: $font-size;
+        font-weight: $font-weight;
+}
+.aboutus{
+        @include card-spacing(20px,0px);
+        .who{
+              @include card-spacing(10px,10px);
+                .card-body{
+                        h5{
+                                @include text-design($main-color,50px,bold);    
+                        }
+                        p{
+                                @include text-design(#4c0166,20px,normal);
+                        }
+                }
+        }  
+        .mission{
+              @include card-spacing(10px,10px);
+                .card-body{
+                        h5{
+                                @include text-design($main-color,50px,bold);    
+                        }
+                        p{
+                                @include text-design(#4c0166,20px,normal);        
+                        }
+                }
+        }
+}

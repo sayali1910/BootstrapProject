@@ -1,0 +1,63 @@
+@import "../variables/variable";
+@mixin set-hover($bg){
+        background-color: $bg;
+        border-radius: 5px;
+}
+nav{
+        background-color:$main-color;
+        color:$font-white;
+}
+.nav-link{
+        text-decoration: none;
+        color:white;
+}
+.navlist{
+        .home:hover{
+                @include set-hover(#f1abbd);
+        }
+        .about:hover{
+                @include set-hover(#f3c4b5);
+        }       
+        .product:hover{
+                @include set-hover(#dca6c8);
+        }
+        .services:hover{
+                @include set-hover(#c8b0d2);
+                
+        }
+        .contact:hover{
+                @include set-hover(#9dc2e5);
+        }
+        .product{
+                .dropdown-menu{
+                       .i1{
+                                background-color: #9dc2e5;
+                                color: aliceblue;
+                       } 
+                       .i2{
+                                background-color: #f1abbd;
+                                color: aliceblue;
+                        } 
+                        background-color: #9dc2e5;
+                        
+                }
+                
+        }
+        
+        .services{
+                .dropdown-menu{
+                       .i1{
+                                background-color: #9dc2e5;
+                                color: aliceblue;
+                       } 
+                       .i2{
+                                background-color: #f1abbd;
+                                color: aliceblue;
+                        } 
+                        background-color: #9dc2e5;
+                        
+                }
+                
+        }
+        
+}
